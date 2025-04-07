@@ -46,7 +46,7 @@ img{
 .description{
     font-family: "Montserrat", sans-serif;
     color: hsl(228, 12%, 48%);
-    font-weight: 700;
+    font-weight: 500;
     font-size: .9rem;
 }
 .price__tag{
