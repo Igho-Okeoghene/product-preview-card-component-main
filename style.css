@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: 14px;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 2px 3px 8px hsl(228, 12%, 48%);
+}
+.img{
+    height: 25%;
+}
+img{
+    border-radius: 14px 14px 0px 0px;
+    max-width: 320px;
+}
+.desktop{
+    display: none;
+}
+.perfume__details{
+    padding: 1.5rem;
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .7rem;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+.heading{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: .9rem 0;
+    color: hsl(212, 21%, 14%);
+}
+.description{
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: .9rem;
+}
+.price__tag{
+    padding: 1.2rem 0;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color:hsl(158, 36%, 37%);
+    position: relative;
+}
+.prev__tag{
+    padding: .7rem 1rem;
+    font-weight: 500;
+    font-size: .8rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+button{
+    border-radius: 10px;
+    width: 100%;
+    padding: .8rem 3rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    background-color: hsl(158, 36%, 37%);    
+    font-weight: 700;
+    border: 1px solid hsl(158, 36%, 37%);   
+    box-shadow: 1px 2px 3px hsl(228, 12%, 48%); 
+}
+button img{
+    padding-right: .5rem;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(158, 42%, 18%)
+    ;
+}
+.attribution{
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        display: flex;
+        width: 700px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    img{
+        border-radius: 14px 0px 0px 14px;
+    }
+    .perfume__details{
+        padding: 3rem 3.5rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .description{
+        padding: .5rem 0;
+    }
+    .price__tag{
+        padding: 1.5rem 0;
+    }
+}    
